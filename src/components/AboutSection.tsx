@@ -23,12 +23,12 @@ const AboutSection = () => {
           </div>
           
           <div className="space-y-6">
-            <h3 className="text-3xl font-semibold">I'm <span className="text-dancer-accent">Jane Doe</span></h3>
+            <h3 className="text-3xl font-semibold">Sono <span className="text-dancer-accent">Michela Venturini</span></h3>
             <p className="text-lg text-gray-700">
-              With over 10 years of professional dance experience, I've dedicated my life to the art of movement. My journey began at the age of 6, and I've since performed on stages across the world.
+              Con oltre 10 anni di esperienza professionale nella danza, ho dedicato la mia vita all'arte del movimento. Il mio viaggio è iniziato all'età di 6 anni e da allora mi sono esibito sui palchi di tutto il mondo. 
             </p>
             <p className="text-lg text-gray-700">
-              My style combines elements of contemporary, ballet, and urban dance, creating a unique expression that tells stories through motion. I believe that dance is one of the most powerful forms of communication, transcending language and cultural barriers.
+              Il mio stile combina elementi di danza contemporanea, balletto e danza urbana, creando un'espressione unica che racconta storie attraverso il movimento. Credo che la danza sia una delle forme di comunicazione più potenti, che trascende le barriere linguistiche e culturali.
             </p>
             
             <div className="grid grid-cols-2 gap-4 pt-6">

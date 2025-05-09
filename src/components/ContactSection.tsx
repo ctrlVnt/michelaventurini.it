@@ -38,16 +38,16 @@ const ContactSection = () => {
     <section id="contact" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center relative">
-          Get in Touch
+          Contattami
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-dancer-accent mt-2"></span>
         </h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-semibold mb-6">Informazioni di contatto</h3>
             <p className="text-gray-700 mb-8">
-              I'm available for performances, collaborations, teaching, and workshops. 
-              Feel free to reach out to discuss how we can create something beautiful together.
+            Sono disponibile per spettacoli, collaborazioni, docenze e workshop. 
+            Sentiti libero di contattarci per discutere di come possiamo creare qualcosa di bello insieme.
             </p>
             
             <div className="space-y-6">
@@ -55,7 +55,7 @@ const ContactSection = () => {
                 <Mail className="w-6 h-6 text-dancer-accent mr-4" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">contact@dancerportfolio.com</p>
+                  <p className="text-gray-600">michelaventurini[at]gmail.com</p>
                 </div>
               </div>
               
@@ -63,7 +63,7 @@ const ContactSection = () => {
                 <Phone className="w-6 h-6 text-dancer-accent mr-4" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+39 338 138 6806</p>
                 </div>
               </div>
               
@@ -71,7 +71,7 @@ const ContactSection = () => {
                 <MapPin className="w-6 h-6 text-dancer-accent mr-4" />
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-gray-600">New York, NY</p>
+                  <p className="text-gray-600">Grugliasco, TO</p>
                 </div>
               </div>
             </div>

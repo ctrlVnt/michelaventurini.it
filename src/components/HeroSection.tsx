@@ -20,11 +20,11 @@ const HeroSection = () => {
       
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="animate-fade-in opacity-0 text-5xl md:text-7xl font-bold text-white mb-6 [animation-delay:100ms]">
-          Art in <span className="text-dancer-accent">Motion</span>
+          Michela Venturini <span className="text-dancer-accent"> in air</span>
         </h1>
         
         <p className="animate-fade-in opacity-0 text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto [animation-delay:300ms]">
-          Expressing stories through movement, rhythm, and passion
+          Benvenuto sul mio sito web personale
         </p>
         
         <div className="animate-fade-in opacity-0 [animation-delay:500ms]">
@@ -32,7 +32,7 @@ const HeroSection = () => {
             onClick={scrollToContact}
             className="bg-dancer-accent hover:bg-amber-600 text-black px-8 py-6 text-lg font-medium rounded-none"
           >
-            Get in Touch
+            Contattami!
           </Button>
         </div>
       </div>
