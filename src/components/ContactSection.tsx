@@ -19,21 +19,37 @@ const ContactSection = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  const encode = (data: { [key: string]: string }) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  };
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    
-    // Show success toast
-    toast({
-      title: "Message Sent",
-      description: "Thank you for your message. I'll get back to you soon!",
-      duration: 5000,
-    });
-    
-    // Reset form
-    setFormData({ name: "", email: "", message: "" });
+  
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...formData }),
+    })
+      .then(() => {
+        toast({
+          title: "Message Sent",
+          description: "Thank you for your message. I'll get back to you soon!",
+          duration: 5000,
+        });
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+        });
+      });
   };
-
+  
   return (
     <section id="contact" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
@@ -87,6 +103,7 @@ const ContactSection = () => {
                 <Input
                   id="name"
                   name="name"
+                  type="text"
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Your name"
