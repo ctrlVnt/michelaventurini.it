@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import sample from '/video/bg.mp4'
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -13,10 +14,13 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center bg-gray-900 overflow-hidden"
     >
       {/* Background image */}
-      <div 
-        className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1545959570-a94084071b5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] 
-        bg-cover bg-center brightness-[0.3]"
-      ></div>
+      <div
+        className="absolute inset-0 bg auto bg-center brightness-[0.4]"
+      >
+        <video className="w-full h-full object-cover" autoPlay loop muted>
+            <source src={sample} type='video/mp4' />
+        </video>
+      </div>
       
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="animate-fade-in opacity-0 text-5xl md:text-7xl font-bold text-white mb-6 [animation-delay:100ms]">

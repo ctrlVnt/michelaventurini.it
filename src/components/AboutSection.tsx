@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import about from '/img/about.jpg'
 
 const AboutSection = () => {
   return (
@@ -14,7 +15,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative z-10 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+                src={about} 
                 alt="Dancer Portrait" 
                 className="w-full h-[500px] object-cover"
               />
@@ -25,38 +26,34 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-3xl font-semibold">Sono <span className="text-dancer-accent">Michela Venturini</span></h3>
             <p className="text-lg text-gray-700">
-              Con oltre 10 anni di esperienza professionale nella danza, ho dedicato la mia vita all'arte del movimento. Il mio viaggio è iniziato all'età di 6 anni e da allora mi sono esibito sui palchi di tutto il mondo. 
+              Insegnante e acrobata aerea, specializzata nel cerchio aereo ma
+              competente anche nei tessuti, amaca, trapezio e corda.
+              Mi ritengo molto creativa, determinata, precisa e volenterosa.
+              Mi piace imparare sempre cose nuove e trasmetterle al prossimo
             </p>
             <p className="text-lg text-gray-700">
-              Il mio stile combina elementi di danza contemporanea, balletto e danza urbana, creando un'espressione unica che racconta storie attraverso il movimento. Credo che la danza sia una delle forme di comunicazione più potenti, che trascende le barriere linguistiche e culturali.
+              Utilizzo di moschettoni di diverse tipologie, smontaggio e montaggio attrezzi e nodo a 8
             </p>
             
             <div className="grid grid-cols-2 gap-4 pt-6">
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-bold mb-2">Experience</h4>
-                  <p className="text-gray-700">10+ years professional</p>
+                  <p className="text-gray-700">3+ anni</p>
                 </CardContent>
               </Card>
               
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-bold mb-2">Performances</h4>
-                  <p className="text-gray-700">200+ international shows</p>
-                </CardContent>
-              </Card>
-              
-              <Card className="border-0 shadow-md">
-                <CardContent className="p-6">
-                  <h4 className="text-xl font-bold mb-2">Awards</h4>
-                  <p className="text-gray-700">15 dance competition awards</p>
+                  <p className="text-gray-700">Spettacoli locali</p>
                 </CardContent>
               </Card>
               
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-bold mb-2">Styles</h4>
-                  <p className="text-gray-700">Contemporary, Ballet, Urban</p>
+                  <p className="text-gray-700">Cerchio aereo, tessuti, amaca, trapezio e corda</p>
                 </CardContent>
               </Card>
             </div>

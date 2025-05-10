@@ -78,7 +78,8 @@ const ContactSection = () => {
           </div>
           
           <div>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="space-y-6">
+            <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label htmlFor="name" className="block mb-2 font-medium">
                   Name

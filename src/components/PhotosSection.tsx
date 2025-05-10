@@ -1,37 +1,55 @@
 
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import photo1 from '/img/1.jpeg';
+import photo2 from '/img/2.jpeg';
+import photo3 from '/img/3.jpeg';
+import photo4 from '/img/4.jpeg';
+import photo5 from '/img/5.jpeg';
+import photo6 from '/img/6.jpeg';
+import photo7 from '/img/7.jpeg';
+import photo8 from '/img/8.jpeg';
 
 // Sample images for the photo gallery
 const photos = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    url: photo1,
     alt: "Dance Performance 1",
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+    url: photo2,
     alt: "Dance Performance 2",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad",
+    url: photo3,
     alt: "Dance Performance 3",
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
+    url: photo4,
     alt: "Dance Performance 4",
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1551989137-334bd6577da3",
+    url: photo5,
     alt: "Dance Performance 5",
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3",
+    url: photo6,
+    alt: "Dance Performance 6",
+  },
+  {
+    id: 7,
+    url: photo7,
+    alt: "Dance Performance 6",
+  },
+  {
+    id: 8,
+    url: photo8,
     alt: "Dance Performance 6",
   },
 ];

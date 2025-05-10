@@ -26,12 +26,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav 
+    isScrolled
+    ?
+    <nav
       className={cn(
-        "fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 md:px-12",
-        isScrolled 
-          ? "py-3 bg-white shadow-md" 
-          : "py-6 bg-transparent"
+        "fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 md:px-12 py-3 bg-white shadow-md"
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -130,6 +129,8 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+    :
+    <></>
   );
 };
 
