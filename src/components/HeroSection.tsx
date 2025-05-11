@@ -42,7 +42,7 @@ const HeroSection = () => {
       </div>
       
       {/* Scroll down indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="absolute bottom-10 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-white mb-2">Scroll</span>
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
