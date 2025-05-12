@@ -4,6 +4,8 @@
 
 **URL**: https://michelaventurini.netlify.app/
 
+<img src="https://riccardoventurini.dev/assets/portfolio/michela.png" width="550" alt="accessibility text">
+
 ## How can I edit this code?
 
 **Use your preferred IDE**
