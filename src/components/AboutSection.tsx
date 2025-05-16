@@ -27,7 +27,7 @@ const AboutSection = () => {
             <h3 className="text-3xl font-semibold">Sono <span className="text-dancer-accent">Michela Venturini</span></h3>
             <p className="text-lg text-gray-700">
               Insegnante e acrobata aerea, specializzata nel cerchio aereo con 
-              un amore per spin e dinamica ma pratic anche tessuto e cinghie aeree (long loop).
+              un amore per spin e dinamica ma pratico anche tessuto e cinghie aeree (long loop).
               Mi ritengo molto creativa, organizzata, precisa e responsabile.
               Mi piace imparare sempre cose nuove e trasmetterle al prossimo!
             </p>
