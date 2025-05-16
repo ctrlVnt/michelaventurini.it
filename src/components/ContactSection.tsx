@@ -63,7 +63,7 @@ const ContactSection = () => {
             <h3 className="text-2xl font-semibold mb-6">Informazioni di contatto</h3>
             <p className="text-gray-700 mb-8">
             Sono disponibile per spettacoli, collaborazioni, docenze e workshop. 
-            Sentiti libero di contattarci per discutere di come possiamo creare qualcosa di bello insieme.
+            Sentiti libero di contattarmi per discutere di come possiamo creare qualcosa di bello insieme.
             </p>
             
             <div className="space-y-6">
