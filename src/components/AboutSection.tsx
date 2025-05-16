@@ -26,26 +26,22 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-3xl font-semibold">Sono <span className="text-dancer-accent">Michela Venturini</span></h3>
             <p className="text-lg text-gray-700">
-              Insegnante e acrobata aerea, specializzata nel cerchio aereo ma
-              competente anche nei tessuti, amaca, trapezio e corda.
-              Mi ritengo molto creativa, determinata, precisa e volenterosa.
-              Mi piace imparare sempre cose nuove e trasmetterle al prossimo
+              Insegnante e acrobata aerea, specializzata nel cerchio aereo con 
+              un amore per spin e dinamica ma pratic anche tessuto e cinghie aeree (long loop).
+              Mi ritengo molto creativa, organizzata, precisa e responsabile.
+              Mi piace imparare sempre cose nuove e trasmetterle al prossimo!
             </p>
-            <p className="text-lg text-gray-700">
-              Utilizzo di moschettoni di diverse tipologie, smontaggio e montaggio attrezzi e nodo a 8
-            </p>
-            
             <div className="grid grid-cols-2 gap-4 pt-6">
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-bold mb-2">Experience</h4>
-                  <p className="text-gray-700">3+ anni</p>
+                  <p className="text-gray-700">1+ anni</p>
                 </CardContent>
               </Card>
               
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
-                  <h4 className="text-xl font-bold mb-2">Performances</h4>
+                  <h4 className="text-xl font-bold mb-2">Performance</h4>
                   <p className="text-gray-700">Spettacoli locali</p>
                 </CardContent>
               </Card>
@@ -53,7 +49,7 @@ const AboutSection = () => {
               <Card className="border-0 shadow-md">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-bold mb-2">Styles</h4>
-                  <p className="text-gray-700">Cerchio aereo, tessuti, amaca, trapezio e corda</p>
+                  <p className="text-gray-700">Cerchio dinamico e spin, cinghie, long loop e tessuto</p>
                 </CardContent>
               </Card>
             </div>
