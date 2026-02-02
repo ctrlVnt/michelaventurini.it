@@ -111,7 +111,7 @@ const PhotosSection = () => {
         </h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {(showAll ? photos : photos.slice(0, 8)).map((photo) => (
+          {(showAll ? photos : photos.slice(0, 6)).map((photo) => (
             <div
               key={photo.id}
               className="aspect-square overflow-hidden group cursor-pointer"
