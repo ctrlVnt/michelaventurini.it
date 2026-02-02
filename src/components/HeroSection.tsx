@@ -28,7 +28,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="animate-fade-in opacity-0 text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto [animation-delay:300ms]">
-          Benvenuto sul mio sito web personale
+          Benvenut* sul mio sito web personale
         </p>
         
         <div className="animate-fade-in opacity-0 [animation-delay:500ms]">
